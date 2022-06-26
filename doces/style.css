@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #20230B;
+}
+
+#menu {
+    display: flex;
+    margin: 0;
+    }
+
+#menu li {
+    color: #C27F32;
+    text-decoration: none;
+    display: block;
+    padding: 85px 115px;
+    padding-left:380px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 500px;
+    font-size: 60px;
+    line-height:28.13px;;   
+    }
+li:hover{
+    background-color: #252a09; 
+}
+    #menu li{
+        margin-right: auto;
+    }
+
+.imageInicio {
+    padding-top:30px;
+    padding-left:300px;
+    width: 85%;
+    height: 85%;
+    transform: rotate(-0.14deg);
+}
+.imageLogo{
+position: absolute;
+width: 6%;
+height: 15.5%;
+left: 686px;
+top: 550px;
+filter: blur(4px);
+}
+#docesdoMingos{
+position: absolute;
+width: 2000px;
+height: 1150px;
+left: 215px;
+top: 815px;
+font-family: 'Roboto Condensed', sans-serif;  
+font-size: 180px;
+line-height: 100px;
+color: #20230B;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#slogan{
+position: absolute;
+width: 2000px;
+height: 55px;
+left: 655px;
+top: 1080px;
+font-family:'Roboto Condensed', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 42px;
+color: #2a2f0f;
+text-shadow: 0px 8px 8px
+}
+h1{
+    padding-top:55px;
+    text-align: center;
+    font-family:'Roboto Condensed', sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 42px;
+    color: #656127;
+    text-shadow: 0px 4px 4px
+}
+table{
+    padding:50px;
+}
+#coco{
+    padding-left:300px;
+    width: 2000px;
+    height: 1150px;
+    
+}
+#leite{
+    padding-left:300px;
+    width: 2000px;
+    height: 1150px;
+}
+#amendoim{
+    padding-left:300px;
+    width: 2000px;
+    height: 1150px;
+}
+p{
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;    
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 80px;
+    color: #C27F32; 
+}
+h3{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-style: bold;     
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 80px;
+    color: #C27F32;
+}
